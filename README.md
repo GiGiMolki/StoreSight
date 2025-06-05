@@ -14,8 +14,8 @@ StoreSight is a full-scale data analysis project that uncovers key business insi
 
 - **Languages**: Python, SQL
 - **Libraries**: Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, Plotly, Prophet
-- **Tools**: VS Code, Jupyter Notebook, Streamlit (optional)
-- **Database**: SQLite / PostgreSQL (via SQLAlchemy)
+- **Tools**: VS Code, Jupyter Notebook
+- **Database**: MySQL
 
 ---
 
@@ -41,12 +41,9 @@ StoreSight is a full-scale data analysis project that uncovers key business insi
 ```bash
 StoreSight/
 │
-├── data/                   # Cleaned and raw datasets
-├── notebooks/              # EDA, RFM, Forecasting, Basket Analysis, etc.
-├── sql/                    # SQL queries and views
-├── scripts/                # Python modules/functions
-├── report/                 # PDF report and PPT slides
-├── dashboard/              # Streamlit or Tableau dashboard (optional)
+├── 0_data/                   # Cleaned and raw datasets
+├── 1_notebooks/              # EDA, RFM, Forecasting, Basket Analysis, etc.
+├── 2_report/                 # PDF report and PPT slides
 └── README.md               # Project overview
 ```
 
@@ -57,7 +54,7 @@ StoreSight/
     • 📘 Well-documented Jupyter Notebooks  
     • 🧾 Executive summary and analysis report  
     • 🎞️ Presentation slides for stakeholders  
-    • 💻 Optional interactive dashboard (Streamlit or Tableau)
+
 
 ⸻
 
@@ -73,11 +70,9 @@ StoreSight/
 
 ⸻
 
-📢 Contact
+Author
 
-Koneti Gireesh Kumar (GiGi Molki)  
-LinkedIn | Email | GitHub
+GiGi Molki 
+ML Engineer , BMSCE.
 
-⸻
 
-📌 This project is part of my portfolio to demonstrate my data analysis capabilities using real-world datasets.
